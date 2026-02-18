@@ -1,5 +1,7 @@
+This is a userscript, that can be used with the tampermonkey extension.
 This script adds the possibility to search for an EVN (vehicle number) on bahn.expert. 
-You can enter an EVN or a part of it into a field  and let your browser search through the timetable of a station. I tested it with firefox and it works. The option to display the EVN has to be enabled in the settings.
+You can enter an EVN or a part of it into a field  and let your browser search through the timetable of a station.
+I tested it with firefox and it works. The option to display the EVN has to be enabled in the settings.
 
 How to install:
 
