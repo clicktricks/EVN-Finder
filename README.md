@@ -20,7 +20,7 @@ How to install:
 How to use it:
 
 1. Navigate to bahn.expert
-2. Select a sation e.g. Berlin Hbf
+2. Select a station e.g. Berlin Hbf
 3. Type in the number or parts of it  
 4. Click on Scan starten
 
