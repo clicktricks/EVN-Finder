@@ -7,9 +7,11 @@ How to install:
 
 1. Add the tampermonkey extension to a browser that supports it.
 
-2. Create a new userscript. Add the content of the file EVN-Finder.user.js.
+ You can get it at:   https://www.tampermonkey.net/
 
-3. Ensure that the settting for displaying EVN is enabled
+3. Create a new userscript. Add the content of the file EVN-Finder.user.js.
+
+4. Ensure that the settting for displaying EVN is enabled
 
 <img width="450" height="585" alt="setting" src="https://github.com/user-attachments/assets/998e7fc5-686c-4661-ad2d-0e9e212e2a02" />
 
