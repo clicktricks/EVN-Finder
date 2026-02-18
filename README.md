@@ -7,8 +7,11 @@ How to install:
 
 2. Create a new userscript. Add the content of the file EVN-Finder.user.js.
 
-3. Ensure that the settting for displaying EVN is enabled       <img width="1287" height="934" alt="setting" src="https://github.com/user-attachments/assets/6fb2850a-a8e8-4100-b06c-0af3115b3a63" />
+3. Ensure that the settting for displaying EVN is enabled
 
+<img width="450" height="585" alt="setting" src="https://github.com/user-attachments/assets/998e7fc5-686c-4661-ad2d-0e9e212e2a02" />
+
+   
 
 How to use it:
 
