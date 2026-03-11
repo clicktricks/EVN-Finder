@@ -1,3 +1,7 @@
+This is just a slightly diffferent version of EVN Finder. It adds a button after a succesful search. 
+That button lets you copy the link for the train connection to your clipboard. Everything else is practically the same.
+
+
 EVN-Finder is a userscript, that can be added to a browser.
 This script adds the possibility to search for an EVN (vehicle number) on bahn.expert. 
 You can enter an EVN or a part of it into a field  and let your browser search through the timetable of a station.
@@ -21,7 +25,7 @@ How to use it:
 
 1. Navigate to bahn.expert
 2. Select a station e.g. Berlin Hbf
-3. Type in the number or parts of it  
-4. Click on Scan starten
+3. Type in the number or a part of it  
+4. Click on Scan 
 
 <img width="1079" height="715" alt="EVN Suche" src="https://github.com/user-attachments/assets/4a9c483f-9ba6-4316-b928-77ae2d40136b" />
