@@ -13,7 +13,7 @@ How to install:
 
  You can get it at:   https://www.tampermonkey.net/
 
-3. Create a new userscript. Add the content of the file EVN-Finder.user.js.
+3. Create a new userscript. Add the content of the file EVN-Finder(plus copy link).user.js
 
 4. Ensure that the settting for displaying EVN is enabled
 
