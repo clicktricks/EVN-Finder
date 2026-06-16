@@ -26,6 +26,6 @@ How to use it:
 
 <img width="1079" height="715" alt="EVN Suche" src="https://github.com/user-attachments/assets/4a9c483f-9ba6-4316-b928-77ae2d40136b" />
 
-<img width="549" height="83" alt="disclaimer" src="https://github.com/user-attachments/assets/7bad1784-5485-41a8-8f08-67ff5edee83d" />
+<img width="549" height="83" alt="Disclaimer2026" src="https://github.com/user-attachments/assets/6b856f89-1a26-49dc-be41-1966ed5b0d29" />
 
 
