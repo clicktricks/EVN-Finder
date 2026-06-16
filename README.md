@@ -25,3 +25,6 @@ How to use it:
 4. Click on Scan starten
 
 <img width="1079" height="715" alt="EVN Suche" src="https://github.com/user-attachments/assets/4a9c483f-9ba6-4316-b928-77ae2d40136b" />
+
+<img width="549" height="83" alt="Disclaimer2026" src="https://github.com/user-attachments/assets/113b1a89-800a-417f-8a27-d4e9f4523bf8" />
+
