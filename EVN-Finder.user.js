@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EVN-Finder(plus copy link)
 // @namespace    http://tampermonkey.net/
-// @version      2.6
+// @version      2.7
 // @description  English GUI with Enter key support and Detail-Link copy button.
 // @author       Clicktricks
 // @match        https://bahn.expert/*
@@ -14,13 +14,16 @@
     let scriptReady = false;
     let isScanning = false;
 
+    // bahn.expert hat data-testid entfernt -> stabiler Marker ist der href-Präfix
+    const DETAILS_LINK_SEL = 'a[href*="/details/"]';
+
     setTimeout(() => { scriptReady = true; }, 1000);
 
     GM_addStyle(`
         #evn-search-box {
-            position: fixed; top: 45px; right: 85px; width: 180px;
-            background: #1a1a1a; border: 2px solid #1976d2; border-radius: 6px;
-            padding: 10px; z-index: 10000; font-family: sans-serif;
+            position: fixed; bottom: 35px; left: 20px; width: 120px;
+            background: #1a1a1a; border: 2px solid #1976d2; border-radius: 8px;
+            padding: 8px; z-index: 10000; font-family: sans-serif;
             box-shadow: 0 4px 12px rgba(0,0,0,0.6); cursor: grab;
         }
         #evn-input {
@@ -80,7 +83,7 @@
     // Alle Zug-Container finden (neue MUI-Struktur)
     const getTrainContainers = () => {
         return Array.from(document.querySelectorAll('div.MuiPaper-root'))
-            .filter(el => el.querySelector('a[data-testid="detailsLink"]'));
+            .filter(el => el.querySelector(DETAILS_LINK_SEL));
     };
 
     const searchAction = async (e) => {
@@ -131,8 +134,8 @@
                 input.disabled = false;
                 isScanning = false;
 
-                // Detail-Link aus data-testid
-                const detailLink = train.querySelector('a[data-testid="detailsLink"]')?.href;
+                // Detail-Link über href-Präfix
+                const detailLink = train.querySelector(DETAILS_LINK_SEL)?.href;
                 if (detailLink) {
                     linkBtn.style.display = "flex";
                     linkBtn.onclick = () => {
